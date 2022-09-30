@@ -9,7 +9,7 @@ let fg = new Image();
 let pipeNorth = new Image();
 let pipeSouth = new Image();
 
-bird.src = "images/cat.png";
+bird.src = "images/cat.PNG";
 bg.src = "images/bg.png";
 fg.src = "images/fg.png";
 pipeNorth.src = "images/pipeNorth.png";
