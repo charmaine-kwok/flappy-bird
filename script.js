@@ -42,6 +42,11 @@ document.addEventListener("keydown", () =>{
     fly.play();
 });
 
+document.addEventListener("click", () =>{
+    birdY -= 32;
+    fly.play();
+});
+
 // pipe coordinates
 
 let pipe = [];
