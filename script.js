@@ -58,7 +58,7 @@ function draw(){
         ctx.drawImage(pipeSouth, pipe[i].x, pipe[i].y + constant);
 
         pipe[i].x--;
-        if(pipe[i].x == 125){
+        if(pipe[i].x == 115){
             pipe.push({
                 x: cvs.width,
                 y: Math.floor(Math.random() * pipeNorth.height) - pipeNorth.height
