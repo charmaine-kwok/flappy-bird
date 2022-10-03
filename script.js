@@ -17,14 +17,14 @@ pipeSouth.src = "images/pipeSouth.png";
 
 // some variables
 
-const gap = 345;
+const gap = 365;
 const constant = pipeNorth.height + gap;
 let score = 0;
 
 let birdX = 10;
 let birdY = 150;
 
-const gravity = 1.5;
+const gravity = 1.2;
 
 // audio files
 
